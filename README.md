@@ -8,7 +8,7 @@ Jarkom_Modul4_Lapres_A12
 -   Muhammad Farrel Abhinaya (05111940000173)
 ---
 # VLSM
-Server DORIKI dan FUKUROU tidak perlu dimasukkan dalam subnet pembagian IP 
+Server DORIKI dan FUKUROU tidak perlu dimasukkan dalam subnet pembagian IP karena mendapat IP DMZ
 
 ![unnamed](https://user-images.githubusercontent.com/57583780/142830307-4739f053-3695-48de-acdc-097842af9fba.png)
 
@@ -33,3 +33,5 @@ Server DORIKI dan FUKUROU tidak perlu dimasukkan dalam subnet pembagian IP
 
 Subnet besar yang dibentuk memiliki NID **10.5.0.0** dengan netmask **/19**. Pembagian IP berdasarkan NID dan netmask dihitung menggunakan pohon pada gambar di bawah:
 ![Topology VLSM drawio](https://user-images.githubusercontent.com/57583780/142831308-75cfd242-95fe-4c28-8515-8744837eb8ad.png)
+
+
