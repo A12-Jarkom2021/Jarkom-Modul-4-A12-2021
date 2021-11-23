@@ -32,11 +32,14 @@ Server DORIKI dan FUKUROU tidak perlu dimasukkan dalam subnet pembagian IP karen
 | **Total**  | **5841**      | **/19**     |
 
 Subnet besar yang dibentuk memiliki NID **10.5.0.0** dengan netmask **/19**. Pembagian IP berdasarkan NID dan netmask dihitung menggunakan pohon pada gambar di bawah:
+
 ![Topology VLSM drawio](https://user-images.githubusercontent.com/57583780/142831308-75cfd242-95fe-4c28-8515-8744837eb8ad.png)
 
 
 Pembagian NID
+
 ![Screenshot from 2021-11-23 14-17-24](https://user-images.githubusercontent.com/57583780/142984610-9b009dca-ec0b-4248-a2b1-278213e4a4a7.png)
 
 Routing
+
 ![Screenshot from 2021-11-23 14-18-01](https://user-images.githubusercontent.com/57583780/142984640-99465671-63b7-43d1-8372-1b67b5344cba.png)
