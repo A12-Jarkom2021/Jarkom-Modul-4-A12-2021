@@ -36,8 +36,7 @@ Subnet besar yang dibentuk memiliki NID **10.5.0.0** dengan netmask **/19**. Pem
 
 
 Pembagian NID
-![Screenshot (1947)](https://user-images.githubusercontent.com/71380876/142984471-ff0168e1-7c10-44d8-bac1-45fa4267a03b.png)
-![Screenshot (1948)](https://user-images.githubusercontent.com/71380876/142984491-5469081f-c5ec-4085-8650-084a7049285b.png)
-![Screenshot (1949)](https://user-images.githubusercontent.com/71380876/142984503-c80538d6-5c90-41bf-b22c-90e3f1b3b038.png)
+![Screenshot from 2021-11-23 14-17-24](https://user-images.githubusercontent.com/57583780/142984610-9b009dca-ec0b-4248-a2b1-278213e4a4a7.png)
 
-
+Routing
+![Screenshot from 2021-11-23 14-18-01](https://user-images.githubusercontent.com/57583780/142984640-99465671-63b7-43d1-8372-1b67b5344cba.png)
