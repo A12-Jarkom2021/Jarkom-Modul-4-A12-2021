@@ -35,3 +35,9 @@ Subnet besar yang dibentuk memiliki NID **10.5.0.0** dengan netmask **/19**. Pem
 ![Topology VLSM drawio](https://user-images.githubusercontent.com/57583780/142831308-75cfd242-95fe-4c28-8515-8744837eb8ad.png)
 
 
+Pembagian NID
+![Screenshot (1947)](https://user-images.githubusercontent.com/71380876/142984471-ff0168e1-7c10-44d8-bac1-45fa4267a03b.png)
+![Screenshot (1948)](https://user-images.githubusercontent.com/71380876/142984491-5469081f-c5ec-4085-8650-084a7049285b.png)
+![Screenshot (1949)](https://user-images.githubusercontent.com/71380876/142984503-c80538d6-5c90-41bf-b22c-90e3f1b3b038.png)
+
+
