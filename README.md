@@ -77,6 +77,10 @@ Routing!
 
 ![image](https://user-images.githubusercontent.com/81466736/143678275-629d96dd-4e5d-4f65-be2a-294e6c2dbba6.png)
 
+### Subnetting
+
+![image](https://user-images.githubusercontent.com/81466736/143678401-9551b04d-826e-4230-b3a0-e55e4e75a13e.png)
+
 ### Setting pada GNS3
 Setting file untuk router dan client
 
@@ -387,4 +391,6 @@ route add -net 10.151.79.68 netmask 255.255.255.252 gw 10.5.8.2
 
 Setelah itu, jalankan command ``` iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 10.5.0.0/16 ``` pada Foosha.
 
+# Kendala
 
+# Pembagian Tugas
