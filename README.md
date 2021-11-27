@@ -439,6 +439,7 @@ Setelah itu, jalankan command ``` iptables -t nat -A POSTROUTING -o eth0 -j MASQ
 Kemudian jangan lupa setiap router/pc di echo namserver dari Foosha dengan `echo nameserver 192.168.122.1 > /etc/resolv.conf`
 
 # Kendala
+Sempat tidak dapat melakukan ping its.ac.id karena ada kesalahan pada konfigurasi
 
 # Pembagian Tugas
 
