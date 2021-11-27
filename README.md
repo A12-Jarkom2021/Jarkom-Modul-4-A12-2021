@@ -47,6 +47,36 @@ Routing!
 
 # CIDR - GNS3
 
+### Pembagian Subnet
+
+***Langkah 1***
+
+![messageImage_1637677225023](https://user-images.githubusercontent.com/81466736/143678146-b6fc2c35-9d4c-48c8-9ecb-4781b9f46023.jpg)
+
+***Langkah 2***
+
+![messageImage_1637677238324](https://user-images.githubusercontent.com/81466736/143678169-84beb43f-ba71-4dd0-8c49-22397eb649e6.jpg)
+
+***Langkah 3***
+
+![messageImage_1637677324391](https://user-images.githubusercontent.com/81466736/143678192-59385b85-a6af-4546-9664-098dac6a4a23.jpg)
+
+***Langkah 4***
+
+![messageImage_1637677333386](https://user-images.githubusercontent.com/81466736/143678211-30e3fe51-99c3-4800-b693-af41342e23a1.jpg)
+
+***Langkah 5***
+
+![messageImage_1637677407920](https://user-images.githubusercontent.com/81466736/143678229-3245805e-8513-4ab4-8e28-d7646f5b6ee0.jpg)
+
+***Langkah 6***
+
+![messageImage_1637677417865](https://user-images.githubusercontent.com/81466736/143678246-f0fbdca8-b50b-4577-ba5b-879bee93b1dd.jpg)
+
+### Pohon Pembagian
+
+![image](https://user-images.githubusercontent.com/81466736/143678275-629d96dd-4e5d-4f65-be2a-294e6c2dbba6.png)
+
 ### Setting pada GNS3
 Setting file untuk router dan client
 
