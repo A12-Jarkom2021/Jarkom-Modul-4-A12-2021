@@ -394,3 +394,7 @@ Setelah itu, jalankan command ``` iptables -t nat -A POSTROUTING -o eth0 -j MASQ
 # Kendala
 
 # Pembagian Tugas
+
+-   Fiqey Indriati Eka Sari (05111940000015)
+-   Dyah Putri Nariswari (05111940000047)
+-   Muhammad Farrel Abhinaya (05111940000173)
