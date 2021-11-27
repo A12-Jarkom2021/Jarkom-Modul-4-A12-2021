@@ -79,7 +79,7 @@ Routing!
 
 ### Subnetting
 
-![image](https://user-images.githubusercontent.com/81466736/143678401-9551b04d-826e-4230-b3a0-e55e4e75a13e.png)
+![Screenshot from 2021-11-27 20-14-36](https://user-images.githubusercontent.com/57583780/143682956-b3730d57-c229-4546-9f5d-e50d0c98702e.png)
 
 ### Setting pada GNS3
 Setting file untuk router dan client
