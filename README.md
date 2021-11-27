@@ -89,31 +89,34 @@ Setting file untuk router dan client
 auto lo
 iface lo inet loopback
 
+#CLOUD
 auto eth0
-iface eth0 inet static
-address 10.151.78.34
-netmask 255.255.255.252
-gateway 10.151.78.33
+iface eth0 inet dhcp
 
+#BLUENO
 auto eth1
 iface eth1 inet static
 address 10.5.64.1
 netmask 255.255.252.0
 
+#WATER7
 auto eth2
 iface eth2 inet static
 address 10.5.192.1
 netmask 255.255.255.252
 
+#GUANHAO
 auto eth3
 iface eth3 inet static
 address 10.5.32.1
 netmask 255.255.255.252
 
+#DORIKI
 auto eth4
 iface eth4 inet static
-address 10.151.79.65
+address 10.5.19.1
 netmask 255.255.255.252
+
 ```
 
 **WATER7 (Router)**
@@ -121,21 +124,25 @@ netmask 255.255.255.252
 auto lo
 iface lo inet loopback
 
+#FOOSHA
 auto eth0
 iface eth0 inet static
 address 10.5.192.2
 netmask 255.255.255.252
 gateway 10.5.192.1
 
+#PUCCI
 auto eth1
 iface eth1 inet static
 address 10.5.144.1
 netmask 255.255.255.252
 
+#CIPHER
 auto eth2
 iface eth2 inet static
 address 10.5.160.1
 netmask 255.255.255.0
+
 ```
 
 **GUANHOU (Router)**
@@ -143,22 +150,26 @@ netmask 255.255.255.0
 auto lo
 iface lo inet loopback
 
+#FOOSHA
 auto eth0
 iface eth0 inet static
 address 10.5.32.2
 netmask 255.255.255.252
 gateway 10.5.32.1
 
+#OIMO
 auto eth1
 iface eth1 inet static
 address 10.5.8.1
-netmask 255.255.252.252
+netmask 255.255.255.252
 
+#JABRA
 auto eth2
 iface eth2 inet static
 address 10.5.20.1
 netmask 255.255.255.0
 
+#ALABASTA
 auto eth3
 iface eth3 inet static
 address 10.5.16.1
@@ -176,6 +187,7 @@ address 10.5.16.2
 netmask 255.255.254.0
 gateway 10.5.16.1
 
+#JORGE
 auto eth1
 iface eth1 inet static
 address 10.5.18.1
@@ -187,20 +199,23 @@ netmask 255.255.255.240
 auto lo
 iface lo inet loopback
 
+#GUANHAO
 auto eth0
 iface eth0 inet static
 address 10.5.8.2
 netmask 255.255.255.252
 gateway 10.5.8.1
 
+#ENIESLOBBY
 auto eth1
 iface eth1 inet static
 address 10.5.4.1
 netmask 255.255.255.0
 
+#FUKUROU
 auto eth2
 iface eth2 inet static
-address 10.151.79.69
+address 10.5.19.5
 netmask 255.255.255.252
 ```
 
@@ -209,12 +224,14 @@ netmask 255.255.255.252
 auto lo
 iface lo inet loopback
 
+#ENIESLOBBY
 auto eth0
 iface eth0 inet static
-address 10.5..4.2
+address 10.5.4.2
 netmask 255.255.255.0
 gateway 10.5.4.1
 
+#ELENA
 auto eth1
 iface eth1 inet static
 address 10.5.0.1
@@ -226,6 +243,7 @@ netmask 255.255.252.0
 auto lo
 iface lo inet loopback
 
+#FOOSHA
 auto eth0
 iface eth0 inet static
 address 10.5.64.2
@@ -236,8 +254,9 @@ gateway 10.5.64.1
 **CIPHER (Client)**
 ```
 auto lo
-iface lo inet looopback
+iface lo inet loopback
 
+#WATER7
 auto eth0
 iface eth0 inet static
 address 10.5.160.2
@@ -250,6 +269,7 @@ gateway 10.5.160.1
 auto lo
 iface lo inet loopback
 
+#PUCCI
 auto eth0
 iface eth0 inet static
 address 10.5.128.3
@@ -262,11 +282,13 @@ gateway 10.5.128.1
 auto lo
 iface lo inet loopback
 
+#PUCCI
 auto eth0
 iface eth0 inet static
 address 10.5.128.2
 netmask 255.255.248.0
 gateway 10.5.128.1
+
 ```
 
 **JIPANGU (Client)**
@@ -274,11 +296,13 @@ gateway 10.5.128.1
 auto lo
 iface lo inet loopback
 
+#PUCCI
 auto eth0
 iface eth0 inet static
 address 10.5.136.2
 netmask 255.255.255.128
 gateway 10.5.136.1
+
 ```
 
 **JABRA (Client)**
@@ -286,11 +310,13 @@ gateway 10.5.136.1
 auto lo
 iface lo inet loopback
 
+#GUANHAO
 auto eth0
 iface eth0 inet static
 address 10.5.20.2
 netmask 255.255.252.0
 gateway 10.5.20.1
+
 ```
 
 **MAINGATE (Client)**
@@ -303,6 +329,7 @@ iface eth0 inet static
 address 10.5.16.3
 netmask 255.255.254.0
 gateway 10.5.16.1
+
 ```
 
 **JORGE (Client)**
@@ -315,6 +342,7 @@ iface eth0 inet static
 address 10.5.18.2
 netmask 255.255.255.240
 gateway 10.5.18.1
+
 ```
 
 **ENIESLOBBY (Client)**
@@ -327,6 +355,7 @@ iface eth0 inet static
 address 10.5.4.3
 netmask 255.255.255.0
 gateway 10.5.4.1
+
 ```
 
 **ELENA (Client)**
@@ -339,6 +368,7 @@ iface eth0 inet static
 address 10.5.0.2
 netmask 255.255.252.0
 gateway 10.5.0.1
+
 ```
 
 **DORIKI (Server)**
@@ -346,11 +376,13 @@ gateway 10.5.0.1
 auto lo
 iface lo inet loopback
 
+#FOOSHA
 auto eth0
 iface eth0 inet static
-address 10.151.79.66
+address 10.5.19.2
 netmask 255.255.255.252
-gateway 10.151.79.65
+gateway 10.5.19.1
+
 ```
 
 **FUKUROU (Server)**
@@ -360,18 +392,23 @@ iface lo inet loopback
 
 auto eth0
 iface eth0 inet static
-address 10.151.79.70
+address 10.5.19.6
 netmask 255.255.255.252
-gateway 10.151.79.69
+gateway 10.5.19.5
+
 ```
 
 Lakukan routing pada Foosha, Water7, Guanhou, dan Oimo
 **FOOSHA**
 ```
+route add -net 10.5.128.0 netmask 255.255.128.0 gw 10.5.192.2
 route add -net 10.5.0.0 netmask 255.255.192.0 gw 10.5.32.2
 route add -net 10.5.64.0 netmask 255.255.252.0 gw 10.5.64.2
-route add -net 10.151.79.64 netmask 255.255.255.252 gw 10.151.79.66
-route add -net 10.151.79.68 netmask 255.255.255.252 gw 10.5.32.2
+
+route add -net 10.5.19.0 netmask 255.255.255.252 gw 10.5.19.2
+route add -net 10.5.19.4 netmask 255.255.255.252 gw 10.5.32.2
+route add -net 10.5.4.0 netmask 255.255.255.0 gw 10.5.32.2
+
 ```
 
 **WATER7**
@@ -382,14 +419,24 @@ route add -net 10.5.160.0 netmask 255.255.252.0 gw 10.5.160.2
 
 **GUANHOU**
 ```
-route add -net 10.5.16.0 netmask 255.255.252.0 gw 10.5.16.3
-route add -net 10.5.16.0 netmask 255.255.252.0 gw 10.5.16.2
+route add -net 10.5.16.0 netmask 255.255.254.0 gw 10.5.16.3
+route add -net 10.5.16.0 netmask 255.255.254.0 gw 10.5.16.2
 route add -net 10.5.20.0 netmask 255.255.252.0 gw 10.5.20.2
-route add -net 10.5.0.0 netmask 255.255.240.0 gw 10.5.8.2
-route add -net 10.151.79.68 netmask 255.255.255.252 gw 10.5.8.2
+route add -net 10.5.0.0 netmask 255.255.252.0 gw 10.5.8.2
+route add -net 10.5.19.4 netmask 255.255.255.252 gw 10.5.8.2
+route add -net 10.5.4.0 netmask 255.255.255.0 gw 10.5.8.2
+```
+
+*OIMO*
+```
+route add -net 10.5.19.4 netmask 255.255.255.252 gw 10.5.19.6
+route add -net 10.5.0.0 netmask 255.255.252.0 gw 10.5.4.3
+route add -net 10.5.0.0 netmask 255.255.252.0 gw 10.5.4.2
+
 ```
 
 Setelah itu, jalankan command ``` iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 10.5.0.0/16 ``` pada Foosha.
+Kemudian jangan lupa setiap router/pc di echo namserver dari Foosha dengan `echo nameserver 192.168.122.1 > /etc/resolv.conf`
 
 # Kendala
 
